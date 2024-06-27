@@ -36,7 +36,8 @@ const productData = [
 
 const productList = () => {
   return (
-    <div className="grid lg:grid-cols-4 gap-4">
+   <div className='container'>
+       <div className="grid lg:grid-cols-4 gap-4 place-items-center">
           {
             productData ?
             productData.map((res, index)=>
@@ -55,7 +56,8 @@ const productList = () => {
             )
             :<p>Product Not Found</p>
           }
-        </div>
+      </div>
+   </div>
   )
 }
 
