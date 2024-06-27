@@ -42,7 +42,7 @@ const productList = () => {
             productData.map((res, index)=>
               {
                 return(
-                  <SingleCard 
+                  <SingleCard
                   key={index}
                   productImg={res.img}
                   productTitle={res.title}

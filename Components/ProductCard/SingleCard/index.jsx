@@ -2,7 +2,7 @@ import { AspectRatio } from '@/components/ui/aspect-ratio';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export const index = ({ newProduct, productImg, productTitle, productPrice, href, key }) => {
+const SingleCard = ({ newProduct, productImg, productTitle, productPrice, href, key })=> {
     return (
         <>
             <div className='max-w-[318px]' key={key}>
@@ -23,3 +23,4 @@ export const index = ({ newProduct, productImg, productTitle, productPrice, href
         </>
     )
 }
+export default SingleCard
