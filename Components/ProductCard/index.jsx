@@ -54,7 +54,7 @@ const productList = () => {
                 )
               }
             )
-            :<p>Product Not Found</p>
+            :<p className='text-center'>Product Not Found</p>
           }
       </div>
    </div>
